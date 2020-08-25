@@ -1,14 +1,14 @@
 ## CREAR DIRECTORIOS
 
 **Cear un directorio dentro de otro si ninguno existe**
-    ***mkdir -p dir5/subdir***
+### `mkdir -p dir5/subdir`
 
 **Crear un fichero con cualquier extensión**
-    ***touch file.py***
+### `touch file.py`
 
 **Crear múltiples directorios dentro de otro cunado ninguno existe**
-1. ***mkdir -p dir1/cartas1 dir1/cartas2***
-2. ***mkdir -p dir1/cartas dir1/tareas dir2/***
+### 1. `mkdir -p dir1/cartas1 dir1/cartas2`
+### 2. `mkdir -p dir1/cartas dir1/tareas dir2/`
 
 ## CREAR FICHEROS
 
