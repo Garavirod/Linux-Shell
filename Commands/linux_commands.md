@@ -13,78 +13,77 @@
 ## CREAR FICHEROS
 
 **Crear un fichero dentro de un directorio**
-    ***touch Directory/file.txt***
+### `touch Directory/file.txt`
 
 ## BORRAR FICHEROS Y DIRECTORIOS
 
 **Borrar un directorio con su contenido**
-1. ***rm -r dir5*** Borra dir5 con su contenido
-2. ***rm -r dir5/fotos*** Borra fotos con su contenido
+### 1. `rm -r dir5` Borra dir5 con su contenido
+### 2. `rm -r dir5/fotos` Borra fotos con su contenido
 
 **Borrar un fichero**
-    **rm file.txt**
+### `rm file.txt`
 
 ## VISUALIZAR CONTENIDO DE UN DIRECTORIO
 **Ver todos lo archivos ocultos en un directorio**
-    ***ls -la***
+### `ls -la`
 
 ## MOVER FICHEROS O DIRECTORIOS
 
 **Mover ficheros y directorios**
-    ***mv file_directory /home/rodrigo/Escritorio/Direcory***
+### `mv file_directory /home/rodrigo/Escritorio/Direcory`
 
 ## RENOMBRAR FICHEROS O DIRECTORIOS
 
 **Renombrar un directorio o fichero**
-    ***mv file1.txt file_with_new_name.txt***
+### `mv file1.txt file_with_new_name.txt`
 
 ## COPIAR FICHEROS Y DIRECTORIOS
 
 **Copiar un directorio dentro de otro**
-    ***cp -r directory_1/ directory_2/***
+### `cp -r directory_1/ directory_2/`
 
 **Copiar fichero dentro de un directorio**
-    ***cp file.cpp directory/***
+### `cp file.cpp directory/`
 
 **Copiar un fichero con otro nombre en el miso directorio**
-    ***cp Original_file.cpp Copy_file.cpp***
+### `cp Original_file.cpp Copy_file.cpp`
 
 **Copiar múltiples ficheros en un directorio**
-    ***cp fichero1.cpp fichero2.py fichero3.rb programacion/***
+### `cp fichero1.cpp fichero2.py fichero3.rb programacion/`
 
 
-## COMODINES ast[*] * ?
+## COMODINES * ?
 
 **Mover todos los archivos de cierto tipo de extensón a un direcotrio**
-    ***mv *.cpp programacion_cpp/***
+### `mv *.cpp programacion_cpp/`
 
 **Copiar todos los ficheros cuyo cuya ocurrencia sea "fichero-"**
-    ***cp fichero-* directoio/***
+### `cp fichero-* directoio/`
 
 **Mostrar todos los ficheros de cierto tipo de extensión**
-    ***ls -l *.txt***
+### `ls -l *.txt`
 
 **Mostrar todos los ficheros que contngan un extensión**
-    ***ls -l ast.ast***
+### `ls -l *.*`
 
 **Mostar todos los archivos con que tengas dos caracteres especificos en su nombre**
-    ***ls -l cartas-??.txt***
+### `ls -l cartas-??.txt`
 
 **Mostar todos los ficheros que contengan un caracter en esa posición**
-    ***ls -ls ?-infrome-2019.txt***
+### `ls -ls ?-infrome-2019.txt`
 
 **Mostrar todos los ficheros que tengan dos caracteries al inicio y que tengan cualquier extensión**
-    ***ls-l ??-infromes."ast"***
+### `ls-l ??-infromes.*`
 
 ## LECTURA DE FICHEROS
 
 **Leer contendio de un fichero**
- ***cat fichero.txt***
-
+ ### `cat fichero.txt`
 
  ## ESCRITURA EN UN FICHERO
 
  **Escribir una nueva linea en un fichero**
-    ***echo nueva liena >> fichero.txt***
+### `echo nueva liena >> fichero.txt`
 
 
