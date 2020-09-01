@@ -84,5 +84,5 @@
 ### `chmod u=w, o=xr fichero_name.txt` A users escritura, A otros ejec y lectura
 ### `chmod u=,o=,g= fichero_name.txt` Revocar todos los permisos a u, g, o
 **Agregar a los 3 grupos**
-### `chmod a+x` Agrega permisos de ejecusion aos 3 grupos
+### `chmod a+x data.sh` Agrega permisos de ejecusion aos 3 grupos
 
