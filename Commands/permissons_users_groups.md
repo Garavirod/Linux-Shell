@@ -56,12 +56,14 @@
 
 **rwx-rwx-rwx | users-groups-others**
 
-## CONSEDER PERMISOS O QUITAR PERMISOS
+## CONCEDER PERMISOS O QUITAR PERMISOS
 
-***1. + Conseder***
+***1. + Conceder***
 ***2. - Remover***
-**Conser el roimso de lectura a un fichero**
+**Conceder el prrmiso de lectura a un fichero**
 ### `chmod +r fichero_name.txt`
+***Conceder permisos de escritura, lectura y ejecuión***
+### `chmod +rwx fichero_name.txt`
 **Quitar permisos delectura a un fichero**
 ### `chmod -r fichero_name.txt`
 
